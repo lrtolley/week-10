@@ -25,7 +25,7 @@ def roast_category(val):
 
     Rules:
     - If val is missing (NaN or None) -> return np.nan
-    - If val is a known string -> return an integer label
+    - If val is a known string -> return a string version of it
     - If val is something else, attempt to convert to string and map
 
     This function intentionally returns simple integer labels; the specific
